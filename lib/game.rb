@@ -43,7 +43,7 @@ class Game
 
         position_1 == "O" && position_2 == "O" && position_3 == "O"
       end
-    elsif self.current_player == "O"
+    elsif self.current_player.token == "O"
       WIN_COMBINATIONS.detect do |win_combination|
         win_index_1 = win_combination[0]
         win_index_2 = win_combination[1]
