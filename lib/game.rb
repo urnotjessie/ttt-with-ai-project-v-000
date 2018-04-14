@@ -1,3 +1,3 @@
 class Game
-  WIN_COMBINATIONS = 
+  WIN_COMBINATIONS = []
 end
