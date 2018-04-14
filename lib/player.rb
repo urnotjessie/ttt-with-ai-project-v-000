@@ -6,7 +6,4 @@ class Player
     @token = token
   end
 
-  def token
-    
-  end
 end
