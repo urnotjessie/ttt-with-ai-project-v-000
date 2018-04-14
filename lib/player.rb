@@ -7,4 +7,6 @@ class Player
   end
 
   def token
+    
+  end
 end
