@@ -18,4 +18,7 @@ class Board
     puts " #{self.cells[6]} | #{self.cells[7]} | #{self.cells[8]} "
     puts "-----------"
   end
+
+  def position
+  end
 end
