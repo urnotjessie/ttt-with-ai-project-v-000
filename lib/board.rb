@@ -33,10 +33,10 @@ class Board
   end
 
   def taken?(position)
-    position(position) == "X" || position(position) == "O"
+    self.position(position) == "X" || position(position) == "O"
   end
 
   def valid_move?(position)
-    
+
   end
 end
