@@ -21,11 +21,7 @@ class Game
   end
 
   def current_player
-    if self.board.turn_count % 2 == 0
-      self.player_1
-    else
-      selfplayer_2
-    end
+    self.board.turn_count % 2 == 0 ? self.player_1 : self.player_2
   end
 
 
