@@ -25,7 +25,7 @@ class Game
   end
 
   def over?
-    self.board.cells.collect
+    self.board.cells.collect {|e| e == "X"}
   end
 
 end
