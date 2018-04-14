@@ -32,6 +32,7 @@ class Board
     self.cells.collect {|cell| cell == "X" || cell = "O"}.size
   end
 
-  def taken?
+  def taken?(position)
+
   end
 end
