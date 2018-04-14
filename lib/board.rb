@@ -41,6 +41,6 @@ class Board
   end
 
   def update(user_input, playe)
-
+    self.position(user_input)
   end
 end
