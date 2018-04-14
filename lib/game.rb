@@ -29,7 +29,7 @@ class Game
   end
 
   def won?
-    
+    if self.over?
   end
 
 end
