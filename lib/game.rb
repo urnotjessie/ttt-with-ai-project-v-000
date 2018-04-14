@@ -20,6 +20,8 @@ class Game
     if self.board.turn_count % 2 == 0
       "X"
     else
+      "O"
+    end
   end
 
 end
