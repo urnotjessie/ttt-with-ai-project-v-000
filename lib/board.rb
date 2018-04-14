@@ -19,6 +19,7 @@ class Board
     puts "-----------"
   end
 
-  def position
+  def position(user_input)
+
   end
 end
