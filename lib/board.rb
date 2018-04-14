@@ -41,6 +41,6 @@ class Board
   end
 
   def update(user_input, player)
-    position(user_input) = player
+    position(user_input) = player[token]
   end
 end
