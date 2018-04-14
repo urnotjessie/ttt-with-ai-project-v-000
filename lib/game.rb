@@ -24,6 +24,6 @@ class Game
     self.board.turn_count % 2 == 0 ? self.player_1 : self.player_2
   end
 
-
+  def over?
 
 end
