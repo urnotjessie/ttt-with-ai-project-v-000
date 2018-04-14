@@ -25,7 +25,7 @@ class Game
   end
 
   def over?
-    self.board.full? true : false
+    self.board.full?? true : false
   end
 
   def won?
