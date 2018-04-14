@@ -29,7 +29,7 @@ class Board
   end
 
   def turn_count
-    self.cells.collect {|cell| cell == "X" || cell == "O"}.size
+    self.cells.select {|cell| cell == "X" || cell == "O"}.size
   end
 
   def taken?(position)
