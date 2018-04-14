@@ -33,9 +33,17 @@ class Game
     number_of_O = self.board.cells.collect {|cell| cell == "O"}.size
     if self.over? && number_of_X == number_of_O
       false
-    elsif self.over? && number_of_X > number_of_O
-      result = []
-      self.board.cells.each_with_index do |cell, index|
+    elsif
+      WIN_COMBINATIONS.detect do |win_combination|
+        win_index_1 = win_combination[0]
+        win_index_2 = win_combination[1]
+        win_index_3 = win_combination[2]
+
+        position_1 = board[win_index_1]
+        position_2 = board[win_index_2]
+        position_3 = board[win_index_3]
+
+        (position_1 == "X" && position_2 == "X" && position_3 == "X") || (position_1 == "O" && position_2 == "O" && position_3 == "O")
 
 
   end
