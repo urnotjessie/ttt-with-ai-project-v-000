@@ -22,7 +22,7 @@ class Game
 
   def current_player
     if self.board.turn_count % 2 == 0
-      "X"
+      @player"X"
     else
       "O"
     end
