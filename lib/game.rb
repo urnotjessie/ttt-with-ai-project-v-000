@@ -26,7 +26,8 @@ class Game
 
   def over?
     number_of_X = self.board.cells.collect {|cell| cell == "X"}.size
-    number_of_O = self.board.cells.collect {|cell| cell == "O"}.size 
+    number_of_O = self.board.cells.collect {|cell| cell == "O"}.size
+    if self.board.full? 
   end
 
 end
