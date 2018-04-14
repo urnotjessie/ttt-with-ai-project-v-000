@@ -1,7 +1,7 @@
 require 'pry'
 class Game
 
-  extending: Players
+  extend Players
 
   attr_accessor :board, :player_1, :player_2
 
