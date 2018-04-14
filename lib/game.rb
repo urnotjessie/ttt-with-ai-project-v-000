@@ -26,9 +26,6 @@ class Game
 
   def over?
     self.board.full? true : false
-      false
-    elsif number_of_X == number_of_O
-      true
   end
 
 end
