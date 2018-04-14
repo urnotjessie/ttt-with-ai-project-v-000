@@ -41,8 +41,10 @@ class Game
       position_3 = self.board.cells[win_index_3]
 
       if self.current_player == "X"
-
-      (position_1 == "O" && position_2 == "O" && position_3 == "O") || (position_1 == "O" && position_2 == "O" && position_3 == "O")
+        position_1 == "O" && position_2 == "O" && position_3 == "O"
+      else
+        position_1 == "O" && position_2 == "O" && position_3 == "O"
+      end
     end
   end
 
