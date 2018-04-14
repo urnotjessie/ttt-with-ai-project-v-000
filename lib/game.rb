@@ -17,5 +17,7 @@ class Game
   end
 
   def current_player
+    self.board.cells
+  end
 
 end
