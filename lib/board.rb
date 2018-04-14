@@ -42,6 +42,7 @@ class Board
       !self.taken?(position)
     else
       false
+    end
   end
 
   def update(user_input, player)
