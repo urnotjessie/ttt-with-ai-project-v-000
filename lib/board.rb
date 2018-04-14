@@ -37,6 +37,6 @@ class Board
   end
 
   def valid_move?(position)
-    self.taken?
+    self.taken?(position)
   end
 end
