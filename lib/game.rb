@@ -14,6 +14,7 @@ class Game
   ]
 
   def initialize(player_1 = Players::Human, player_2 = Players::Human, board = Array.new(9, " "))
+    @player_1 = player_1
   end
 
   def current_player
