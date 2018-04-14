@@ -33,6 +33,6 @@ class Board
   end
 
   def taken?(position)
-    position(position)
+    if position(position) == "X" || position(position) == "O" 
   end
 end
