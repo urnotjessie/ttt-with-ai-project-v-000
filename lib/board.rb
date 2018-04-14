@@ -6,4 +6,7 @@ class Board
     @cells = []
   end
 
+  def reset!
+  end
+
 end
