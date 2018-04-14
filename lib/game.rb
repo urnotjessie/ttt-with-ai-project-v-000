@@ -25,7 +25,7 @@ class Game
   end
 
   def over?
-    self.board.cells
+    self.board.cells.collect
   end
 
 end
