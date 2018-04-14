@@ -31,22 +31,17 @@ class Game
   end
 
   def won?
-    number_of_X = self.board.cells.collect {|cell| cell == "X"}.size
-    number_of_O = self.board.cells.collect {|cell| cell == "O"}.size
-    if self.over? && number_of_X == number_of_O
-      false
-    else
-      WIN_COMBINATIONS.detect do |win_combination|
-        win_index_1 = win_combination[0]
-        win_index_2 = win_combination[1]
-        win_index_3 = win_combination[2]
+    WIN_COMBINATIONS.detect do |win_combination|
+      win_index_1 = win_combination[0]
+      win_index_2 = win_combination[1]
+      win_index_3 = win_combination[2]
 
-        position_1 = self.board.cells[win_index_1]
-        position_2 = self.board.cells[win_index_2]
-        position_3 = self.board.cells[win_index_3]
+      position_1 = self.board.cells[win_index_1]
+      position_2 = self.board.cells[win_index_2]
+      position_3 = self.board.cells[win_index_3]
 
-        (position_1 == "X" && position_2 == "X" && position_3 == "X") || (position_1 == "O" && position_2 == "O" && position_3 == "O")
-      end
+      (position_1 == "X" && position_2 == "X" && position_3 == "X") || (position_1 == "O" && position_2 == "O" && position_3 == "O")
+    end
     end
   end
 
