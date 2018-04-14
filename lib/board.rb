@@ -39,4 +39,6 @@ class Board
   def valid_move?(position)
     !self.taken?(position)
   end
+
+  def update
 end
