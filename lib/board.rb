@@ -11,5 +11,6 @@ class Board
   end
 
   def display
+    puts "#{self.cells}"
   end
 end
