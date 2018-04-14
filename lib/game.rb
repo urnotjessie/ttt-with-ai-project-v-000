@@ -43,10 +43,17 @@ class Game
 
         position_1 == "O" && position_2 == "O" && position_3 == "O"
       end
+    elsif self.current_player == "O"
+      WIN_COMBINATIONS.detect do |win_combination|
+        win_index_1 = win_combination[0]
+        win_index_2 = win_combination[1]
+        win_index_3 = win_combination[2]
 
-      elsif self.current_player == "O"
-      #   position_1 == "X" && position_2 == "X" && position_3 == "X"
-      # end
+        position_1 = self.board.cells[win_index_1]
+        position_2 = self.board.cells[win_index_2]
+        position_3 = self.board.cells[win_index_3]
+      position_1 == "X" && position_2 == "X" && position_3 == "X"
+      end
     end
   end
 
