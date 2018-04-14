@@ -34,7 +34,7 @@ class Game
     if self.over? && number_of_X == number_of_O
       false
     elsif self.over? && number_of_X > number_of_O
-      self.board
+      self.board.cells
 
   end
 
