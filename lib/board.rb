@@ -25,5 +25,6 @@ class Board
   end
 
   def full?
+    self.cells.all?(|element| element == "X" | element == "O")
   end
 end
