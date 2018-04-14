@@ -1,3 +1,4 @@
+module Player
 class Human < Player
 
   def move(board)
