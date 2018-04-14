@@ -40,7 +40,7 @@ class Board
     !self.taken?(position)
   end
 
-  def update
-    
+  def update(user_input, playe)
+
   end
 end
