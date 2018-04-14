@@ -1,6 +1,7 @@
 class Game
 
   attr_accessor :board
+
   WIN_COMBINATIONS = [
     [0, 1, 2],
     [3, 4, 5],
@@ -12,8 +13,5 @@ class Game
     [6, 4, 2]
   ]
 
-  def board
-
-  end
 
 end
