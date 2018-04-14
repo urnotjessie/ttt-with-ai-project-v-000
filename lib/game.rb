@@ -17,7 +17,9 @@ class Game
   end
 
   def current_player
-    self.board.turn_count
+    if self.board.turn_count % 2 == 0
+      "X"
+    else
   end
 
 end
