@@ -48,6 +48,7 @@ class Game
     end
   end
 
-  def draw
+  def draw?
+  end
 
 end
