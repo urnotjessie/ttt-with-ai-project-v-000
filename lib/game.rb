@@ -48,4 +48,6 @@ class Game
     end
   end
 
+  def draw
+
 end
