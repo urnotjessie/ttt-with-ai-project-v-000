@@ -40,7 +40,7 @@ class Board
     !self.taken?(position)
   end
 
-  def update(user_input, playe)
-    self.position(user_input)
+  def update(user_input, player)
+    position(user_input) = player
   end
 end
