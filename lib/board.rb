@@ -40,7 +40,6 @@ class Board
   def valid_move?(position)
     !self.taken?(position)
   end
-  binding.pry
 
   def update(user_input, player)
     # self.position(user_input) = player
