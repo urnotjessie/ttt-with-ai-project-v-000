@@ -34,6 +34,7 @@ class Game
     if self.over? && number_of_X == number_of_O
       false
     elsif self.over? && number_of_X > number_of_O
+      result = []
       self.board.cells.each_with_index do |cell, index|
 
 
