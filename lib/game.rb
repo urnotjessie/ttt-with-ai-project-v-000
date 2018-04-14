@@ -17,7 +17,7 @@ class Game
   end
 
   def current_player
-    self.board.cells
+    self.board.turn_count
   end
 
 end
