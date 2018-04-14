@@ -25,9 +25,7 @@ class Game
   end
 
   def over?
-    number_of_X = self.board.cells.collect {|cell| cell == "X"}.size
-    number_of_O = self.board.cells.collect {|cell| cell == "O"}.size
-    if !self.board.full?
+    self.board.full? true : false
       false
     elsif number_of_X == number_of_O
       true
