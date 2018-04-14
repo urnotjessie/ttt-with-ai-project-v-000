@@ -21,6 +21,6 @@ class Board
 
   def position(user_input)
     user_input_int = user_input.to_i
-    
+    self.cells[user_input_int - 1]
   end
 end
