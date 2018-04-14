@@ -42,7 +42,7 @@ class Game
 
       if self.current_player == "X"
         position_1 == "O" && position_2 == "O" && position_3 == "O"
-      else
+      elsif self.current_player == "O"
         position_1 == "O" && position_2 == "O" && position_3 == "O"
       end
     end
