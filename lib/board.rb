@@ -29,6 +29,6 @@ class Board
   end
 
   def turn_count
-    self.cells.collect {|cell| cell == "X" || cell = "O"}
+    self.cells.collect {|cell| cell == "X" || cell = "O"}.length
   end
 end
