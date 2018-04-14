@@ -33,7 +33,7 @@ class Game
     number_of_O = self.board.cells.collect {|cell| cell == "O"}.size
     if self.over? && number_of_X == number_of_O
       false
-    elsif 
+    elsif self.over?
 
   end
 
