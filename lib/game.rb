@@ -25,5 +25,7 @@ class Game
   end
 
   def over?
+    self.board.cells
+  end
 
 end
