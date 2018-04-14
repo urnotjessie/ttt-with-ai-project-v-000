@@ -1,7 +1,8 @@
 class Human < Player
 
-  def move
+  def move(board)
     puts "Please input your position: "
     user_input = gets.strip
+
   end
 end
