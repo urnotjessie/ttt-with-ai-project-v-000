@@ -27,4 +27,7 @@ class Board
   def full?
     self.cells.all?(|element| element == "X" | element == "O")
   end
+
+  def turn_count
+  end
 end
