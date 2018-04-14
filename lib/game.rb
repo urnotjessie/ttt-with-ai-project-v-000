@@ -31,7 +31,8 @@ class Game
   def won?
     number_of_X = self.board.cells.collect {|cell| cell == "X"}.size
     number_of_O = self.board.cells.collect {|cell| cell == "O"}.size
-    if self.over
+    if self.over && number_of_X == number_of_O
+      true
   end
 
 end
