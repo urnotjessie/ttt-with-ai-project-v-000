@@ -7,6 +7,7 @@ class Board
   end
 
   def reset!
+    @cells.clear
   end
 
 end
