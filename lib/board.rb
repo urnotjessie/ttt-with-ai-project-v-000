@@ -11,6 +11,6 @@ class Board
   end
 
   def display
-    puts "#{self.cells[]}"
+    puts " #{self.cells[0]} | #{self.cells[1]} | #{self.cells[2]} "
   end
 end
