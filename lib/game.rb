@@ -31,7 +31,7 @@ class Game
   end
 
   def won?
-    if self.current_player == "X"
+    if self.current_player.token == "X"
       WIN_COMBINATIONS.detect do |win_combination|
         win_index_1 = win_combination[0]
         win_index_2 = win_combination[1]
