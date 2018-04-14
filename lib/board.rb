@@ -20,6 +20,7 @@ class Board
   end
 
   def position(user_input)
-
+    user_input_int = user_input.to_i
+    
   end
 end
