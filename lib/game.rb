@@ -25,7 +25,7 @@ class Game
   end
 
   def over?
-    self.board.cells.collect {|cell| cell == "X"}
+    self.board.cells.collect {|cell| cell == "X"}.size
   end
 
 end
