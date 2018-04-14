@@ -29,6 +29,8 @@ class Game
     number_of_O = self.board.cells.collect {|cell| cell == "O"}.size
     if !self.board.full?
       false
+    elsif number_of_X == number_of_O
+      true
   end
 
 end
