@@ -31,4 +31,7 @@ class Board
   def turn_count
     self.cells.collect {|cell| cell == "X" || cell = "O"}.size
   end
+
+  def taken?
+  end
 end
