@@ -33,7 +33,7 @@ class Game
     number_of_O = self.board.cells.collect {|cell| cell == "O"}.size
     if self.over? && number_of_X == number_of_O
       false
-    elsif
+    else
       WIN_COMBINATIONS.detect do |win_combination|
         win_index_1 = win_combination[0]
         win_index_2 = win_combination[1]
