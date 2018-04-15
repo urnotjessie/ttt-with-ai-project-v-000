@@ -65,6 +65,6 @@ class Game
   end
 
   def turn
-    @player_1
+    @player_1.move(game.board)
   end
 end
