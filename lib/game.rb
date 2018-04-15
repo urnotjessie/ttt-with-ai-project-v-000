@@ -72,6 +72,7 @@ class Game
       current_player = self.current_player
       user_input = current_player.move(self.board)
     end
+    current_player
 
   end
 
