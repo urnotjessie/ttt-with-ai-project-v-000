@@ -65,6 +65,6 @@ class Game
   end
 
   def turn
-    puts
+    @player_1
   end
 end
