@@ -51,6 +51,8 @@ class Game
   def draw?
     if self.won? || !self.board.full?
       false
+    elsif
+
   end
 
 end
