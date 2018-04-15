@@ -81,7 +81,7 @@ class Game
         puts "Congratulations #{self.winner}!"
         break
       end
-      self.turn
+      elseself.turn
     else
       if self.draw?
         puts "Cat's Game!"
