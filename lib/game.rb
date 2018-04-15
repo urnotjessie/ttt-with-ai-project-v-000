@@ -70,6 +70,7 @@ class Game
     if !self.board.valid_move?(user_input)
       turn
     else
+      "invalid"
   end
 
 end
