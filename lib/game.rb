@@ -65,6 +65,6 @@ class Game
   end
 
   def turn
-    
+    puts
   end
 end
