@@ -87,6 +87,5 @@ class Game
       self.turn
     end
   end
-  binding.pry
 
 end
