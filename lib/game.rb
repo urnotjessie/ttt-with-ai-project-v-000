@@ -63,4 +63,7 @@ class Game
       self.board.cells[self.won?[0]]
     end
   end
+
+  def turn
+  end
 end
