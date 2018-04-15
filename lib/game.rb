@@ -31,6 +31,8 @@ class Game
   end
 
   def won?
+    number_of_O = self.board.cells.select {|cell| cell == "O"}
+    number_of_X = self.board.cells.select {|cell| cell == "X"}
     WIN_COMBINATIONS.detect do |win_combination|
       win_index_1 = win_combination[0]
       win_index_2 = win_combination[1]
