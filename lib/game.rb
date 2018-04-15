@@ -62,7 +62,7 @@ class Game
 
   def winner
     if self.won? != nil
-      self.board.cell[self.won?[0]]
+      self.board.cells[self.won?[0]]
     end
   end
 end
