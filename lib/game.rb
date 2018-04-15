@@ -81,7 +81,7 @@ class Game
         puts "Congratulations #{self.winner}!"
         break
       elsif self.draw?
-      self.turn
+        break
     end
   end
   binding.pry
