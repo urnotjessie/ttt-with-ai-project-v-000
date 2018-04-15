@@ -81,7 +81,7 @@ class Game
         puts "Congratulations #{self.winner}!"
         break
       elsif self.draw?
-        puts ""
+        puts "Cat's Game!"
         break
       elsif
     end
