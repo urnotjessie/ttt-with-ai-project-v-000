@@ -66,7 +66,8 @@ class Game
 
   def turn
     current_player = self.current_player
-    current_player.move(self.board)
+    user_input = current_player.move(self.board)
+    if
   end
 
 end
