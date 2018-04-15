@@ -72,6 +72,7 @@ class Game
       user_input = current_player.move(self.board)
     end
     self.board.update(user_input, current_player)
+    user_input
   end
   binding.pry
   def play
