@@ -76,6 +76,7 @@ class Game
 
   def play
     self.turn
+    self.over?
   end
 
 end
