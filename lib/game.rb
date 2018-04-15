@@ -87,6 +87,8 @@ class Game
       puts "Cat's Game!"
     end
   end
-  binding.pry
+
+  def start
+  end
 
 end
