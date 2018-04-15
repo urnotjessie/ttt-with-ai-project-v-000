@@ -84,6 +84,7 @@ class Game
       self.turn
     end
     if self.draw?
+      puts "Cat's Game!"
 
     end
   end
