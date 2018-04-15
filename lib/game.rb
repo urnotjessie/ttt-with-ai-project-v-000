@@ -69,7 +69,8 @@ class Game
     while !self.board.valid_move?(user_input_1)
       "invalid"
       user_input = @player_1.move(game.board)
-    self.board.valid_move?(user_input_1)
+    "1"
+
 
   end
 end
