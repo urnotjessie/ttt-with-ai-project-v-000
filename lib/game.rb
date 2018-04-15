@@ -65,7 +65,7 @@ class Game
   end
 
   def turn
-    user_input_1 = @player_1.move(self.board)
+    @player_1.move(self.board)
     while !self.board.valid_move?(user_input_1)
       "invalid"
       user_input = @player_1.move(self.board)
