@@ -64,5 +64,6 @@ class Game
     else
       nil
     end
+  end
 
 end
