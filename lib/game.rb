@@ -85,6 +85,7 @@ class Game
     end
     if self.draw?
       puts "Cat's Game!"
+    end
   end
 
 end
