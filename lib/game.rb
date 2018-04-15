@@ -49,6 +49,7 @@ class Game
   end
 
   def draw?
+    if self.won? || self.board.full?
   end
 
 end
