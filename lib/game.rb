@@ -54,7 +54,7 @@ class Game
     else
       true
     end
-
   end
+
 
 end
