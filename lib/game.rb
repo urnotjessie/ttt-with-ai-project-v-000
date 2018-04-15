@@ -71,11 +71,7 @@ class Game
       "invalid"
       user_input = current_player.move(self.board)
     end
-    if current_player.token == "X"
-      "1"
-    else
-      "2"
-    end
+    self.board.
   end
   binding.pry
 
