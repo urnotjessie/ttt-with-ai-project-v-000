@@ -72,7 +72,6 @@ class Game
       user_input = current_player.move(self.board)
     end
     self.board.update(user_input, current_player)
-    self.board.turn_count + 1
   end
   binding.pry
 
