@@ -84,6 +84,7 @@ class Game
         puts "Cat's Game!"
         break
       end
+      self.turn
     end
   end
   binding.pry
