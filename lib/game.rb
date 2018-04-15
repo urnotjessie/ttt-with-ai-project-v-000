@@ -79,7 +79,7 @@ class Game
     while !self.over?
       if self.won?
         puts "Congratulations #{self.winner}!"
-        quit
+        break
       elsif self.draw?
       self.turn
     end
