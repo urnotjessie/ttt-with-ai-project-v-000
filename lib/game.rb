@@ -65,5 +65,6 @@ class Game
       nil
     end
   end
+  binding.pry
 
 end
