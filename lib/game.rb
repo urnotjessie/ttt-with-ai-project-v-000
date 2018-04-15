@@ -65,6 +65,6 @@ class Game
   end
 
   def turn
-    @player_1.move(game.board)
+    user_input = @player_1.move(game.board)
   end
 end
