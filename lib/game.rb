@@ -65,5 +65,6 @@ class Game
   end
 
   def turn
+    
   end
 end
