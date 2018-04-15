@@ -68,9 +68,9 @@ class Game
     current_player = self.current_player
     user_input = current_player.move(self.board)
     while !self.board.valid_move?(user_input)
-      turn
-    else
       "invalid"
+      current_player = self.current_player
+      user_input = current_player.move(self.board)
 
   end
 
