@@ -74,6 +74,8 @@ class Game
     end
     if current_player.token == "X"
       "1"
+    else
+      "2"
 
   end
 
