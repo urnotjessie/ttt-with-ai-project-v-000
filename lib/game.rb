@@ -61,6 +61,7 @@ class Game
   end
 
   def winner
-    self.won?
+    if self.won? != nil
+      self.board.cell[self.won?[0]]
   end
 end
