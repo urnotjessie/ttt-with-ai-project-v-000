@@ -80,8 +80,9 @@ class Game
       if self.won?
         puts "Congratulations #{self.winner}!"
         break
+      else
+        self.turn
       end
-      elseself.turn
     else
       if self.draw?
         puts "Cat's Game!"
