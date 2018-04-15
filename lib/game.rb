@@ -78,7 +78,5 @@ class Game
       user_input = @player_2.move(game.board)
     end
     "2"
-
-
   end
 end
