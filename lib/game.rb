@@ -73,6 +73,5 @@ class Game
     end
     self.board.update(user_input, current_player)
   end
-  binding.pry
 
 end
