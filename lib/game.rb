@@ -44,7 +44,7 @@ class Game
 
       if self.board.full?
         position_1 == "X" && position_2 == "X" && position_3 == "X"
-      elsif self.current_player.token == "O"
+      else
         position_1 == "X" && position_2 == "X" && position_3 == "X"
       else
         position_1 == "O" && position_2 == "O" && position_3 == "O"
