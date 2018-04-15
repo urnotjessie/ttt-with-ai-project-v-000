@@ -76,6 +76,7 @@ class Game
   end
 
   def play
+    while !self.over?
     self.turn
     self.over?
   end
