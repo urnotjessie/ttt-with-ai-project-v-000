@@ -69,7 +69,6 @@ class Game
     user_input = current_player.move(self.board)
     while !self.board.valid_move?(user_input)
       "invalid"
-      current_player = self.current_player
       user_input = current_player.move(self.board)
     end
     if current_player.token == "X"
