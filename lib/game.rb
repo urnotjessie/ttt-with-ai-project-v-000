@@ -76,6 +76,8 @@ class Game
       "1"
     else
       "2"
+    end
+
 
   end
 
