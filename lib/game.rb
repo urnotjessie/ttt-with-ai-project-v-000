@@ -65,8 +65,7 @@ class Game
   end
   binding.pry
   def turn
-    puts "Please input your position: "
-    self.player_1
+    self.player_1.move(self.board)
     while !self.board.valid_move?(user_input_1)
       "invalid"
       user_input = @player_1.move(self.board)
