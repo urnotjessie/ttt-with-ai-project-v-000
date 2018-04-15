@@ -83,7 +83,7 @@ class Game
       elsif self.draw?
         puts "Cat's Game!"
         break
-      elsif
+      end
     end
   end
   binding.pry
