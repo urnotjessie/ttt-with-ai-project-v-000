@@ -76,6 +76,7 @@ class Game
   end
 
   def play
+    self.turn
     while !self.over?
       if self.won?
         puts "Congratulations #{self.winner}!"
