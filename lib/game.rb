@@ -80,12 +80,11 @@ class Game
       if self.won?
         puts "Congratulations #{self.winner}!"
         break
-      elsif self.draw?
-        puts "Cat's Game!"
-        break
       end
       self.turn
     end
+    if self.draw?
+      puts "Cat's Game!"
   end
 
 end
