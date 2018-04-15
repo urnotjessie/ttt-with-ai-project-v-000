@@ -71,7 +71,7 @@ class Game
       "invalid"
       user_input = current_player.move(self.board)
     end
-    self.board.
+    self.board.turn_count
   end
   binding.pry
 
