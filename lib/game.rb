@@ -77,6 +77,6 @@ class Game
       "2"
     end
   end
-      binding.pry
+  binding.pry
 
 end
