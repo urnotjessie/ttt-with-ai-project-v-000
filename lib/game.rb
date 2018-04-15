@@ -76,17 +76,16 @@ class Game
   end
 
   def play
-    unless self.over?
+    while !self.over?
       if self.won?
         puts "Congratulations #{self.winner}!"
         break
-      else
-        self.turn
       end
-    else
-      if self.draw?
-        puts "Cat's Game!"
-      end
+      self.turn
     end
+    if self.draw?
+
+    end
+  end
 
 end
