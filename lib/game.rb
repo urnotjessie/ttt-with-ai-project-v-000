@@ -63,7 +63,7 @@ class Game
       self.board.cells[self.won?[0]]
     end
   end
-  binding.pry
+  
   def turn
     self.player_1.move(self.board)
     while !self.board.valid_move?(user_input_1)
