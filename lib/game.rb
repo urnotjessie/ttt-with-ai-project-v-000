@@ -76,6 +76,7 @@ class Game
     else
       "2"
     end
+    binding.pry
 
 
   end
