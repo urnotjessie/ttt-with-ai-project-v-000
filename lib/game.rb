@@ -66,6 +66,6 @@ class Game
 
   def turn
     user_input = @player_1.move(game.board)
-    self.board.valid_move?(user_input)
+    if self.board.valid_move?(user_input)
   end
 end
