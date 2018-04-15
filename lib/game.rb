@@ -63,20 +63,9 @@ class Game
       self.board.cells[self.won?[0]]
     end
   end
-  
-  def turn
-    self.player_1.move(self.board)
-    while !self.board.valid_move?(user_input_1)
-      "invalid"
-      user_input = @player_1.move(self.board)
-    end
-    "1"
 
-    user_input_2 = @player_2.move(self.board)
-    while !self.board.valid_move?(user_input_2)
-      "invalid"
-      user_input = @player_2.move(self.board)
-    end
-    "2"
+  def turn
+    current_player = self.current_player
   end
+
 end
